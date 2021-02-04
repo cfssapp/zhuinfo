@@ -124,7 +124,8 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'upload')
-MEDIA_URL = '/upload/'
+# MEDIA_URL = '/upload/'
+MEDIA_URL = 'https://antapi.pythonanywhere.com/upload/'
 
 CORS_ORIGIN_WHITELIST = [
     "https://zhuinfo.pythonanywhere.com",
