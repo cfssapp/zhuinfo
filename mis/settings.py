@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'mis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
-        'NAME': 'mis',
-        'USER': 'root',
-        'PASSWORD': 'root',
+        'NAME': 'zhuinfo$mysql01',
+        'USER': 'zhuinfo',
+        'PASSWORD': 'wh123456',
+        'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',
     }
 }
 
