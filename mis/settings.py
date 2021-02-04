@@ -85,25 +85,25 @@ WSGI_APPLICATION = 'mis.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'zhuinfo$mysql01',
-#         'USER': 'zhuinfo',
-#         'PASSWORD': 'wh123456',
-#         'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',
-#     }
-# }
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',
         'NAME': 'zhuinfo$mysql01',
         'USER': 'zhuinfo',
         'PASSWORD': 'wh123456',
+        'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',
+#         'NAME': 'zhuinfo$mysql01',
+#         'USER': 'zhuinfo',
+#         'PASSWORD': 'wh123456',
+#     }
+# }
 
 
 # Internationalization
