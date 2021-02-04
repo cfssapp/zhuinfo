@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'mis.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',#MYSQL类型数据库，Python会依赖MySQL的驱动器
-        'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',#数据库主机地址
-        'NAME': 'zhuinfo$mysql01',#数据库名称
-        'USER': 'zhuinfo',#数据库用户名（建议不要加入root敢死队）
-        'PASSWORD': 'wh123456',#数据库密码
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'zhuinfo.mysql.pythonanywhere-services.com',
+        'NAME': 'zhuinfo$mysql01',
+        'USER': 'zhuinfo',
+        'PASSWORD': 'wh123456',
     }
 }
 
